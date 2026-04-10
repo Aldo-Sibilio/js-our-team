@@ -28,3 +28,32 @@ h1 {
   color: #333;
   line-height: 1.5;
 }
+
+/* container card */
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+
+/* card */
+
+.card {
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 350px;
+  height: 120px;
+}
+
+
+/* immagine */
+
+.card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
